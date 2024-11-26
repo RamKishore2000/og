@@ -13,7 +13,7 @@ package.domain = org.novfensec
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts = py,png,jpg,kv,atlas,json,txt,css,html,js
+source.include_exts = py,png,jpg,kv,atlas,html,js
 
 
 
@@ -39,7 +39,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.3.0,kivymd==1.1.1,pillow==10.3.0,,razorpay,pywebview
+requirements = python3,kivy==2.3.0,kivymd==1.1.1,pillow==10.3.0,,razorpay,webview
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
